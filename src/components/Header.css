@@ -1,0 +1,33 @@
+.mainnav ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.mainnav ul li{
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+.mainnav{
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+.walletCard {
+	margin: 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+    padding: 10px;
+}
+
+.walletCard button{
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
